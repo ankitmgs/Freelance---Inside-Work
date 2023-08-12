@@ -1,0 +1,15 @@
+.ratingStars, .userRatings {
+    display: flex;
+    align-items: center;
+}
+.userRatings {
+    gap: 10px;
+}
+h6 {
+    margin: 0;
+}
+.userRatingDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

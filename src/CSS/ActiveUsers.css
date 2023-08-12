@@ -1,0 +1,29 @@
+.activeUsersSection {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #D2D2D2;
+    padding: 1.2vw;
+    border-radius: 10px;
+    height: 31vh;
+    justify-content: space-between;
+}
+.activeUsers {
+    font-weight: bolder;
+    margin-left: 1vw;
+}
+.activeUsersHead {
+    display: flex;
+    justify-content: space-between;
+}
+.activeUsersBars {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    border-bottom: 2px solid #D2D2D2;
+}
+.activeUsersInput {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 1vw;
+}

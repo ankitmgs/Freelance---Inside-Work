@@ -1,0 +1,19 @@
+.dashboardPadding {
+    padding: 1vw 2vw;
+}
+.rolesWidth {
+    width: 10vw;
+}
+table {
+    width: 100%;
+}
+.usersTableWidth {
+    width: 140%;
+}
+.usersPadding {
+    padding: 0.5vw 1vw;
+}
+.courseReportPadding {
+    padding: 0.5vw 0;
+    border-bottom: 0.5px solid #DADADA;
+}

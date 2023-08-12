@@ -1,0 +1,57 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 1vw;
+}
+.dashboardTableSection {
+    width: 50vw;
+    padding: 1vw;
+    border: 2px solid #D2D2D2;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+.whiteDashboardTotalBox {
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+.blackDashboardTotalBox {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+.dashboardTableSection {
+    grid-column: 1 / 8;
+    grid-row: 3 / 6;
+    width: 55vw;
+}
+.dashboardActiveUsers {
+    grid-column: 4 / 10;
+    grid-row: 1 / 3;
+}
+.whiteDashboardTotalBoxSecond {
+    grid-column: 7 / 10;
+    grid-row: 3 / 4;
+}
+.dashboardPieChart {
+    grid-column: 7 / 10;
+    grid-row: 4 / 6;
+}
+.userInTable {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.userInTableLogo {
+    padding: 7px;
+    background-color: #14171A;
+    width: 30px;
+    border-radius: 50%;  
+}
+.userInTableInfo {
+    display: flex;
+    flex-direction: column;
+}
+.userInTableInfo > p {
+    margin: 0;
+} 

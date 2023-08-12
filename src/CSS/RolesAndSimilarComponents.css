@@ -1,0 +1,31 @@
+.rolesSection, .usersSection {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(40px, auto);
+    padding: 2vw 1vw 1vw 1vw;
+}
+
+.rolesSearchBar, .usersSearchBar {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+.rolesExportButton, .usersExportButton {
+    grid-column: 9 / 10;
+    grid-row: 1 / 2;
+}
+.rolesAddButton, .usersAddButton {
+    grid-column: 10/ 11;
+    grid-row: 1 / 2;
+}
+.rolesTable, .usersTable {
+    grid-column: 1 / 11;
+    grid-row: 2 / 10;
+    height: 62vh;
+    overflow: scroll;
+}
+.usersPaging {
+    grid-column: 10/ 11;
+    grid-row: 9 / 11;
+    margin-top: 10px;
+}

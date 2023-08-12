@@ -1,0 +1,29 @@
+.totalBox {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    border-radius: 10px;
+    border: 2px solid #D2D2D2;
+    
+}
+.totalAndDate {
+    display: flex;
+    justify-content: space-between;
+}
+.boxNumber {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0;
+}
+.blackBackGround{
+    background-color: #14171A;
+}
+.white{
+    color: #FFFFFF;
+}
+.whiteBackGround{
+    background-color: #FFFFFF;
+} 
+.black {
+    color: #14171A;
+}

@@ -1,0 +1,83 @@
+.course-title {
+  font-weight: 700;
+}
+.bread-text {
+  text-decoration: none;
+  color: #656871;
+  font-size: 14px;
+}
+.star-bottom-text {
+  color: #656871;
+  margin-left: 6rem;
+  font-size: 14px;
+  margin-top: -6px;
+}
+.rating-number {
+  margin-left: 2rem;
+}
+.course-card-avatar {
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  margin: 14px;
+}
+.avatar-name{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.course-card-rating{
+    align-items: flex-end;
+}
+.course-card-top-reverse{
+    margin-right: 10px;
+}
+.course-card-top-rating-text{
+font-weight: 700;
+font-size: 16px;
+margin-left: 10px;
+}
+.course-card-des{
+    font-weight: 400;
+    font-weight: 16px;
+
+}
+.card-bottom-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+}
+.course-button{
+  border-radius: 5px;
+  padding: 0 30px 0 10px;
+  margin-left: 1rem;
+}
+.course-next-btn{
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 6px;
+  height: 2rem;
+}
+
+
+
+
+
+/* New  */
+
+.crs-title-txt{
+  font-weight: bold;
+  float: left;
+}
+.crd-pagination{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  justify-content: start;
+}
+.crd-pagination span{
+  color: #656871;
+  font-size: 14px;
+}

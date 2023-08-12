@@ -1,0 +1,23 @@
+.pieChart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    height: 26vh;
+}
+.pieChartLabel {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.pieChartLabels {
+    display: flex;
+    flex-wrap: wrap;
+    width: 27vw;
+    gap: 20px;
+    align-items: center;
+    padding: 1vw;
+}
+.pieChartParas {
+    margin: 0;
+}
